@@ -1,5 +1,13 @@
 /* Pseudo-element before for the gradient */
 .rotate-gradient {
-  background: conic-gradient(from 9deg at 48.4% 51.67%, #89AE47 0deg, #0C2258 203.4deg, #0C2258 248.4deg, #0C2258 360deg);
-  transform: rotate(0deg);
+  @apply 
+  relative
+  z-[1]
+  overflow-hidden
+  before:absolute
+  before:-inset-[999px]
+  before:-z-[1]
+  before:bg-[conic-gradient(from_9deg_at_48.4%_51.67%,_#89AE47_0deg,_#0C2258_203.4deg,_#0C2258_248.4deg,_#0C2258_360deg)]
+  before:animate-[spin_5s_linear_infinite]
+  ;
 }
