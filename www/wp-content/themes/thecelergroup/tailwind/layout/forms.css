@@ -1,0 +1,217 @@
+.form-label {
+  @apply hidden 
+  font-medium 
+  text-white 
+  text-base 
+  lg:text-[18px] 
+  mb-2;
+}
+
+.form-group {
+  @apply
+  mb-4
+  lg:mb-8;
+}
+
+.form-group br {
+  @apply hidden;
+}
+
+.form-footer p,
+.form-group p {
+  @apply m-0;
+}
+
+.form-control,
+input.wpcf7-form-control:not([type=submit]), 
+textarea.wpcf7-form-control {
+  @apply block 
+  w-full 
+  h-12 
+  lg:h-[54px] 
+  px-2 
+  py-4 
+  lg:pl-6 
+  font-sans 
+  font-normal 
+  leading-tight 
+  text-base 
+  text-white 
+  bg-white/25 
+  bg-clip-padding border 
+  border-white/80 rounded-[4px] 
+  placeholder:text-light-grey-1 
+  transition 
+  ease-in-out 
+  duration-500 
+  focus:text-white 
+  focus:border-primary 
+  focus:outline-none 
+  focus:shadow-lg;
+}
+
+select.form-control {
+  @apply focus:text-black focus:bg-white;
+}
+
+textarea.form-control,
+textarea.wpcf7-form-control {
+  @apply 
+  h-12 
+  min-h-[48px] 
+  lg:h-[54px] 
+  lg:min-h-[54px] 
+  resize-none 
+  overflow-hidden;
+}
+
+.form-group {
+  @apply mb-4 lg:mb-8;
+}
+
+.wpcf7-submit {
+  @apply py-3
+  xl:!text-lg
+}
+
+.form-footer {
+  @apply relative
+  mb-4;
+}
+
+.wpcf7-not-valid-tip {
+  @apply hidden;
+}
+
+.wpcf7 form.failed input.wpcf7-form-control:not([type=submit]),
+.wpcf7 form.invalid input.wpcf7-form-control:not([type=submit]) {
+  @apply border-danger
+  text-danger;
+}
+
+.wpcf7 form.failed .form-label:not(.form-label.textarea-label),
+.wpcf7 form.invalid .form-label:not(.form-label.textarea-label) {
+  @apply text-danger;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.invalid .wpcf7-response-output {
+  @apply border-danger
+  rounded-lg
+  text-danger;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.sent .wpcf7-response-output {
+  @apply 
+  m-0
+  p-4
+  text-center;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+  @apply border-dark-green-1
+  rounded-lg
+  bg-dark-green-1
+  text-white;
+}
+
+.form-footer .wpcf7-spinner {
+  @apply 
+  absolute
+  right-0
+  top-1/2
+  -translate-y-1/2
+  ;
+}
+
+/* Form validation */
+.messages {
+  @apply hidden;
+}
+
+.has-error .form-label {
+  @apply text-danger;
+}
+
+.has-error .form-control {
+  @apply border-danger placeholder:text-danger;
+}
+
+.has-error .g-recaptcha-v2-visible iframe {
+  @apply border border-danger;
+}
+
+.thank-you-message {
+  @apply text-center text-base leading-normal bg-dark-green-1 text-white rounded-lg p-4 m-0;
+}
+
+.thank-you-message a {
+  @apply whitespace-nowrap font-bold;
+}
+
+.thank-you-heading {
+  @apply text-xl;
+}
+
+.wpcf7-form-control-wrap:nth-child(1),
+.wpcf7-form-control-wrap:nth-child(2) {
+  @apply block w-1/2;
+}
+
+.wpcf7 .form-group {
+  @apply w-full px-4;
+}
+
+.wpcf7 .form-group span {
+  @apply block;
+}
+
+.wpcf7 .form-group br {
+  @apply hidden;
+}
+
+.wpcf7 .form-group input,
+.wpcf7 .form-group textarea {
+  @apply w-full 
+  bg-[#F9F9F9] 
+  border 
+  border-[#E6E6E6] 
+  rounded-[4px] h-[50px] 
+  pl-5 pr-5 
+  focus:border-dark-green-2 
+  focus-visible:outline-none;
+}
+
+.wpcf7 .form-group textarea {
+  @apply h-[140px] 
+  pt-5;
+}
+
+.form-body .form-group:nth-child(1),
+.form-body .form-group:nth-child(2) {
+  @apply block md:w-1/2;
+}
+
+.form-body {
+  @apply flex flex-wrap -mx-4;
+
+}
+
+.form-footer .wpcf7-submit {
+  @apply bg-dark-green-2 
+  text-white 
+  text-lg 
+  max-w-[373px] 
+  mx-auto 
+  border 
+  border-transparent 
+  hover:bg-transparent 
+  hover:border-dark-green-2 
+  hover:text-dark-green-2 
+  focus:bg-transparent 
+  focus:border-dark-green-2 
+  focus:text-dark-green-2 
+  focus:ring-0;
+}

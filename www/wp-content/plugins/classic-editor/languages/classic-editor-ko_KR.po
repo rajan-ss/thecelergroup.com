@@ -1,0 +1,138 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-12 02:55:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:496
+msgctxt "Editor Name"
+msgid "Classic Editor"
+msgstr "클래식 편집기"
+
+#: classic-editor.php:422 classic-editor.php:500 classic-editor.php:900
+msgctxt "Editor Name"
+msgid "Block editor"
+msgstr "블록 편집기"
+
+#: classic-editor.php:418 classic-editor.php:900
+msgctxt "Editor Name"
+msgid "Classic editor"
+msgstr "클래식 편집기"
+
+#: classic-editor.php:853
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "편집 (클래식 편집기)"
+
+#: classic-editor.php:846
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "편집하기(블록 편집기)"
+
+#: classic-editor.php:505
+msgid "Change settings"
+msgstr "설정 변경"
+
+#: classic-editor.php:492
+msgid "Default editor for all sites"
+msgstr "모든 사이트에 대한 기본 편집기"
+
+#: classic-editor.php:488
+msgid "Editor Settings"
+msgstr "편집기 설정"
+
+#: classic-editor.php:472
+msgid "Default Editor"
+msgstr "기본 편집기"
+
+#: classic-editor.php:887
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "블록 편집기"
+
+#: classic-editor.php:884
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "클래식 편집기"
+
+#. translators: %s: post title
+#: classic-editor.php:848
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "블록 편집기에서 &#8220;%s&#8221; 편집하기"
+
+#: classic-editor.php:683
+msgid "Switch to block editor"
+msgstr "블록 편집기로 전환"
+
+#: classic-editor.php:712
+msgid "Switch to classic editor"
+msgstr "클래식 편집기로 전환"
+
+#: classic-editor.php:509
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "기본적으로 블록 편집기는 클래식 편집기로 대체되며 사용자는 편집기를 전환할 수 없습니다."
+
+#: classic-editor.php:508
+msgid "Allow site admins to change settings"
+msgstr "모든 사이트 관리자가 설정을 변경하도록 허용"
+
+#: classic-editor.php:664
+msgid "Editor"
+msgstr "편집기"
+
+#: classic-editor.php:446
+msgid "No"
+msgstr "아니오"
+
+#: classic-editor.php:442
+msgid "Yes"
+msgstr "네"
+
+#: classic-editor.php:369
+msgid "Allow users to switch editors"
+msgstr "모든 이용자가 편집기를 전환하도록 허용"
+
+#: classic-editor.php:368
+msgid "Default editor for all users"
+msgstr "모든 이용자에 대한 기본 편집기"
+
+#. Author URI of the plugin
+#: classic-editor.php
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#. Plugin URI of the plugin
+#: classic-editor.php
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://wordpress.org/plugins/classic-editor/"
+
+#. Author of the plugin
+#: classic-editor.php
+msgid "WordPress Contributors"
+msgstr "워드프레스 기여자"
+
+#. Description of the plugin
+#: classic-editor.php
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "워드프레스 클래식 편집기와 TinyMCE, 메타박스 등이 포함된 이전 스타일의 글 편집 화면을 활성화합니다. 이 화면을 확장하는 이전 플러그인을 지원합니다."
+
+#. Plugin Name of the plugin
+#: classic-editor.php
+msgid "Classic Editor"
+msgstr "클래식 편집기"
+
+#. translators: %s: post title
+#: classic-editor.php:855
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "클래식 편집기에서 &#8220;%s&#8221; 편집"
+
+#: classic-editor.php:731
+msgid "Settings"
+msgstr "설정"
