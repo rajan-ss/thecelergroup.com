@@ -36,7 +36,7 @@ textarea.wpcf7-form-control {
   font-normal 
   leading-tight 
   text-base 
-  text-white 
+  /* text-white  */
   bg-white/25 
   bg-clip-padding border 
   border-white/80 rounded-[4px] 
@@ -44,7 +44,7 @@ textarea.wpcf7-form-control {
   transition 
   ease-in-out 
   duration-500 
-  focus:text-white 
+  /* focus:text-white  */
   focus:border-primary 
   focus:outline-none 
   focus:shadow-lg;
